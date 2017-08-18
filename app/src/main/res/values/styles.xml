@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <!--background为透明-->
+    <style name="BackgroundColorNull">
+        <item name="android:background">#00000000</item>
+    </style>
+    <!--background为白色-->
+    <style name="BackgroundColorWhite">
+        <item name="android:background">#ffffff</item>
+    </style>
+    <!--background为colorPrimary-->
+    <style name="BackgroundColorPrimary">
+        <item name="android:background">@color/primary</item>
+    </style>
+    <!--background为图片-->
+    <style name="BackgroundColorIc">
+        <item name="android:background">@drawable/bg_lock</item>
+    </style>
+
+
+
+</resources>
